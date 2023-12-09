@@ -1,0 +1,9 @@
+회귀분석 순서
+1. 데이터 슬쩍 보기
+2. target vs. feature 산포도 확인
+3. pairplot, heatmap 보고 서로 상관관계 높은 설명변수 제거 준비
+4. model.fit ㄱ
+5. 각 설명변수 vs. 잔차 그래프로 선형성, 독립성 확인
+6. fitted vs. residual 그래프로 분산성 확인
+7. qqplot 으로 정규성 가정 확인, 샤피로로 확인하든가
+8. 쿡의거리 그래프로 이상치 확인
